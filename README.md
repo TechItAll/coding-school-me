@@ -1,2 +1,2 @@
-# coding-school-me
-This Cool :)!
+# coding-school-me-main-other
+Cool 2 :)
