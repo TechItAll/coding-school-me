@@ -1,0 +1,10 @@
+import time, os
+print("Testing 1/3")
+time.sleep(5)
+os.system("cls")
+print("Testing 2/3", end="\r")
+time.sleep(5)
+print("Testing 3/3")
+time.sleep(2)
+os.system("cls")
+print("Test Complete!")
