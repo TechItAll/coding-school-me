@@ -1,0 +1,53 @@
+1ST STEP:
+check if any changes have been made (red=subtractions, green=additions) with
+git status
+
+2ND STEP:
+add any changes (subtractions and additions) with
+git add (name of files)
+
+example ->
+git add test.py awesome.py cool.txt
+or
+git add .
+^^ above just adds all changes without you having to type every file manually
+
+3RD STEP:
+commit all the things you added in the previous step with a message
+git commit -m "your message goes here"
+
+4TH STEP:
+push changes to github with
+git push
+
+----------------------------------------------
+HOW TO SET UP NEW REPO:
+
+create new repo on github.com
+click the green "Code" button and copy the HTTPS link
+open a new empty folder for your code on your PC
+
+open the terminal and type
+git clone {paste the link that you copied here}
+
+------------------------------------------
+BRANCHES AND MERGES
+
+create a new branch on github.com
+
+open your terminal in your folder and do
+git fetch 
+- refreshes/updates all stuff
+
+switch to the branch you made
+git checkout {name of the branch}
+
+now you can do all your additions, commits, and pushes on the branch
+
+when you want to merge, go to github.com and click the button that says something
+about changes have been made on that branch and create a pull request
+
+hopefully there are no conflicts, so you can just keep going with clicking the green buttons
+
+then switch to main "git checkout main"
+then git pull
